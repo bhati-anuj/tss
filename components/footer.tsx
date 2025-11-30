@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram } from "lucide-react"
+import { Facebook, Twitter, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,10 +7,10 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-2 border-2 border-school-primary rounded-full flex items-center justify-center">
-              <div className="text-school-gold text-2xl">✦</div>
-            </div>
-            <h3 className="font-bold text-school-primary">THE STELLAR SCHOOL</h3>
+            <img src="/tss-logo.svg" alt="TSS Logo" className="w-32" />
+            <h3 className="font-bold text-school-primary">
+              THE STELLAR SCHOOL
+            </h3>
           </div>
         </div>
 
@@ -23,8 +23,9 @@ export default function Footer() {
               THE STELLAR SCHOOL
             </h4>
             <p className="text-sm text-school-gray">
-              Lorem ipsum dolor amet consectetur adipiscing elit ipsum dolor sit amet consectetur adipiscing elit ipsum
-              dolor sit amet consectetur adipiscing elit.
+              Lorem ipsum dolor amet consectetur adipiscing elit ipsum dolor sit
+              amet consectetur adipiscing elit ipsum dolor sit amet consectetur
+              adipiscing elit.
             </p>
           </div>
 
@@ -86,7 +87,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-school-primary mb-4">Resources</h4>
+            <h4 className="font-semibold text-school-primary mb-4">
+              Resources
+            </h4>
             <ul className="space-y-2 text-sm text-school-gray">
               <li>
                 <a href="#" className="hover:text-school-accent">
@@ -135,8 +138,10 @@ export default function Footer() {
           <div className="w-8 h-1 bg-school-gray rounded-full"></div>
         </div>
 
-        <p className="text-center text-sm text-school-gray">© 2025 The Stellar School. All rights reserved.</p>
+        <p className="text-center text-sm text-school-gray">
+          © 2025 The Stellar School. All rights reserved.
+        </p>
       </div>
     </footer>
-  )
+  );
 }

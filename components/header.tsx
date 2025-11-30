@@ -8,13 +8,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-school-primary text-white sticky top-0 z-50">
+    <header className="bg-white text-school-primary sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-school-primary font-bold text-sm">TSS</span>
-            </div>
+           <img src="/tss-logo.svg" alt="TSS Logo" className="w-18" />
             <span className="font-bold text-lg hidden sm:block">THE STELLAR SCHOOL</span>
           </div>
 
@@ -37,7 +35,7 @@ export default function Header() {
             </a>
           </nav>
 
-          <div className="hidden md:flex items-center gap-3">
+          {/* <div className="hidden md:flex items-center gap-3">
             <Button
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-school-primary bg-transparent"
@@ -45,7 +43,7 @@ export default function Header() {
               ENQUIRY
             </Button>
             <Button className="bg-school-accent hover:bg-school-accent-light text-white">GET APPS</Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -72,7 +70,7 @@ export default function Header() {
               <a href="#contact" className="hover:text-school-accent transition-colors">
                 Contact
               </a>
-              <div className="flex flex-col gap-2 pt-2">
+              {/* <div className="flex flex-col gap-2 pt-2">
                 <Button
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-school-primary w-full bg-transparent"
@@ -80,7 +78,7 @@ export default function Header() {
                   ENQUIRY
                 </Button>
                 <Button className="bg-school-accent hover:bg-school-accent-light text-white w-full">GET APPS</Button>
-              </div>
+              </div> */}
             </div>
           </nav>
         )}

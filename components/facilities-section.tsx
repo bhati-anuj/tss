@@ -55,8 +55,30 @@ export default function FacilitiesSection() {
 
         {/* Active Facility Display */}
         {activeFacility && (
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative rounded-xl overflow-hidden shadow-lg">
+              <img
+                src={activeFacility.image || "/placeholder.svg"}
+                alt={activeFacility.title}
+                className="w-full h-64 md:h-96 object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-school-primary/90 to-transparent p-6">
+                <h3 className="text-white text-xl md:text-2xl font-bold">{activeFacility.title}</h3>
+                <p className="text-white/80 text-sm md:text-base">{activeFacility.subtitle}</p>
+              </div>
+            </div>
+             <div className="relative rounded-xl overflow-hidden shadow-lg">
+              <img
+                src={activeFacility.image || "/placeholder.svg"}
+                alt={activeFacility.title}
+                className="w-full h-64 md:h-96 object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-school-primary/90 to-transparent p-6">
+                <h3 className="text-white text-xl md:text-2xl font-bold">{activeFacility.title}</h3>
+                <p className="text-white/80 text-sm md:text-base">{activeFacility.subtitle}</p>
+              </div>
+            </div>
+             <div className="relative rounded-xl overflow-hidden shadow-lg">
               <img
                 src={activeFacility.image || "/placeholder.svg"}
                 alt={activeFacility.title}
