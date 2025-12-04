@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/tss-logo.svg",
+        url: "/tss-logo-white.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/tss-logo.svg",
+        url: "/tss-logo-white.svg",
         media: "(prefers-color-scheme: dark)",
       },
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/tss-logo.svg",
+    apple: "/tss-logo-white.svg",
     // apple: "/apple-icon.png",
   },
 }
