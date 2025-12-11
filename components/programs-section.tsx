@@ -35,13 +35,13 @@ export default function ProgramsSection() {
         >
           {/* Featured Program */}
           <div className="md:row-span-2">
-            <div className="relative rounded-xl overflow-hidden shadow-lg h-full">
+            <div className="relative rounded-xl overflow-hidden shadow-lg h-full group cursor-pointer">
               <img
                 src="/pre_primary.svg"
                 alt="Primary Program"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-school-accent p-4">
+              <div className="absolute bottom-0 left-0 right-0 bg-transparent bg-opacity-90 p-4">
                 <h3 className="text-white text-lg md:text-xl font-bold">
                   PRE-PRIMARY
                 </h3>
@@ -55,27 +55,27 @@ export default function ProgramsSection() {
             <div
               key={index}
               className={`relative rounded-xl overflow-hidden shadow-lg group cursor-pointer 
-        ${
-          index === 0
+            ${
+            index === 0
             ? "md:col-start-2 md:row-start-1"
             : index === 1
             ? "md:col-start-3 md:row-start-1 md:row-span-2"
             : index === 2
             ? "md:col-start-2 md:row-start-2"
             : "md:col-start-4 md:row-start-1"
-        }`}
+            }`}
             >
               <img
-                src={program.image || "/placeholder.svg"}
-                alt={program.title}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              src={program.image || "/placeholder.svg"}
+              alt={program.title}
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
               <div
-                className={`absolute bottom-0 left-0 right-0 ${program.color} p-3`}
+              className={`absolute bottom-0 left-0 right-0 bg-transparent p-3`}
               >
-                <h3 className="text-white text-sm md:text-base font-bold">
-                  {program.title}
-                </h3>
+              <h3 className="text-white text-sm md:text-base font-bold">
+                {program.title}
+              </h3>
               </div>
             </div>
           ))}
