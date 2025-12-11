@@ -2,17 +2,17 @@ const articles = [
   {
     title: "Sports activity at TSS makes the impact.",
     date: "June 20",
-    image: "/school-sports-activity-students.jpg",
+    image: "/article1.svg",
   },
   {
     title: "Students are making their future bright by themselves.",
     date: "May 20",
-    image: "/students-studying-success.jpg",
+    image: "/article2.svg",
   },
   {
     title: "TSS giving opportunities to students.",
     date: "February 29",
-    image: "/school-students-opportunities.jpg",
+    image: "/article3.svg",
   },
 ]
 

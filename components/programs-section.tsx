@@ -1,18 +1,18 @@
 const programs = [
   {
-    title: "PRE-PRIMARY",
-    image: "/kindergarten-children-playing-learning.jpg",
+    title: "PRIMARY",
+    image: "/primary.svg",
     color: "bg-school-primary",
   },
   {
-    title: "PRIMARY",
+    title: "SPORTS",
     subtitle: "NURTURING YOUNG MINDS",
-    image: "/primary-school-students-classroom.jpg",
+    image: "/sports.svg",
     color: "bg-school-accent",
   },
   {
     title: "SECONDARY",
-    image: "/secondary-school-students-studying.jpg",
+    image: "/secondary.svg",
     color: "bg-school-primary",
   },
 ];
@@ -37,13 +37,13 @@ export default function ProgramsSection() {
           <div className="md:row-span-2">
             <div className="relative rounded-xl overflow-hidden shadow-lg h-full">
               <img
-                src="/primary-school-students-happy-classroom-learning.jpg"
+                src="/pre_primary.svg"
                 alt="Primary Program"
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-school-accent p-4">
                 <h3 className="text-white text-lg md:text-xl font-bold">
-                  PRIMARY
+                  PRE-PRIMARY
                 </h3>
                 <p className="text-white/80 text-sm">NURTURING YOUNG MINDS</p>
               </div>
