@@ -20,25 +20,18 @@ export default function LeadershipSection() {
             <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
               {[
           {
-            name: "VAISHALI",
+            name: "Pawan Bhati",
             role: "DIRECTOR",
-            image: "/director_photo2.svg",
+            image: "/pawan_bhati.JPG",
             description: "At The Stellar School, our vision is clear — to build an institution that not only imparts education but creates extraordinary human beings.",
             quote: "TSS is not just a school — it is a space where ideas grow, talents shine, futures are shaped with purpose."
           },{
-            name: "ANUJ",
-            role: "DIRECTOR",
-            image: "/director_photo2.svg",
-            description: "At The Stellar School, our vision is clear — to build an institution that not only imparts education but creates extraordinary human beings.",
-            quote: "TSS is not just a school — it is a space where ideas grow, talents shine, futures are shaped with purpose."
-          },{
-            name: "Gaurav",
-            role: "DIRECTOR",
-            image: "/director_photo2.svg",
-            description: "At The Stellar School, our vision is clear — to build an institution that not only imparts education but creates extraordinary human beings.",
-            quote: "TSS is not just a school — it is a space where ideas grow, talents shine, futures are shaped with purpose."
-          }
-              ].map((leader, index) => (
+            name: "Rakesh Bhati",
+            role: "Chairman",
+            image: "/rakesh_bhati.jpeg",
+            description: "A Vision for Excellence, A Commitment to Every Child At The Stellar School, our goal is not only academic success — it is the creation of an ecosystem where children flourish as complete individuals. We have designed this institution to be a launchpad of possibilities — where learning is joyful, sports are celebrated, creativity is encouraged, and each child receives the right platform to identify their strengths.",
+            quote: "Our responsibility as a school is not simply to teach but to transform."
+          }].map((leader, index) => (
           <div key={index} className="flex-shrink-0 w-full">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center p-4">
               <div className="flex justify-center">
