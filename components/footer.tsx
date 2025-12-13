@@ -74,13 +74,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-school-accent">
+                <a href="/terms_and_conditions" className="hover:text-school-accent">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-school-accent">
-                  Annual Compliance
+                <a href="/privacy_policy" className="hover:text-school-accent">
+                  Privacy Policy
                 </a>
               </li>
             </ul>
