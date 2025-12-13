@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function VisionSection() {
   return (
-    <section className="bg-white py-12 lg:py-20">
+    <section id="about" className="bg-white py-12 lg:py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div>

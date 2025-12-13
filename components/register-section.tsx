@@ -67,7 +67,7 @@ export default function RegisterSection() {
                   Phone number
                 </Label>
                 <div className="flex gap-2 mt-1">
-                  <select className="px-3 py-2 text-black border border-input rounded-md bg-background text-sm">
+                  <select aria-label="Country code" className="px-3 py-2 text-black border border-input rounded-md bg-background text-sm">
                     <option>+91</option>
                   </select>
                   <Input
